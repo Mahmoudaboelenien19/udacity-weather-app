@@ -40,12 +40,12 @@ body {
 .shown {
   animation: animate 5s linear;
 }
+
 @keyframes animate {
   20%,
   70% {
     opacity: 1;
   }
-
   100% {
     opacity: 0;
   }
@@ -108,6 +108,7 @@ textarea {
   font-size: 20px;
   font-family: "Oswald", sans-serif;
 }
+
 /* Reset style for HTML element on active to have no border*/
 input:focus,
 select:focus,
@@ -115,6 +116,7 @@ textarea:focus,
 button:focus {
   outline: none;
 }
+
 /* Style for Placeholder Text*/
 ::placeholder {
   /* Firefox, Chrome, Opera */
