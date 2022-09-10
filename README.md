@@ -11,10 +11,10 @@ this is my weather app project.
 * just put the zipCode of city you want
 * your feeling(optional)
 * then you will get
-1. city name
-2. temperature
-3. today's date
-4. weather describtion
+ 1. city name
+ 2. temperature
+ 3. today's date
+ 4. weather describtion
 
 ## resouces
 * https://classroom.udacity.com/nanodegrees/nd0011-fwd-t2/parts/cd0429
