@@ -129,10 +129,9 @@ const showData = async () => {
     document.getElementById("description").innerText 
     = `description: ${data.description}`;
 
-    //check if the user entered his feeling 
-    data.feelings!=""? 
-    document.getElementById("content").innerText = `feeling: ${data.feelings}`:
-    document.getElementById("content").innerText ='';
+    //check if the user entered his feeling   
+    document.getElementById("content").innerText =
+     data.feelings!=""? `feeling: ${data.feelings}`:'';
 
   } catch (err) {
     console.log(err);
